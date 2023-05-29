@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aquamarine;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.input-field {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid green;
+}
+.list {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-align: left;
+}
+.list-item {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+@media screen and(max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 95%;
+  }
+  .list {
+    margin-left: -1rem;
+  }
+  .list-item {
+    width: 100%;
+  }
+}
